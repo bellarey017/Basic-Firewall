@@ -1,2 +1,2 @@
 # Basic-Firewall
-This script is a basic firewall / IPS tool that monitors network traffic, checks packets against rules, detects a malware signature (Nimda) while also identifying a DOS attack. 
+Using the Scapy library, the program inspects 'live' network traffic and implements a simple firewall capability that can detect and respond to suspicious activity. The script applies key security concepts like traffic monitoring, packet inspection, malware signature detection, access control, and detection based on packet rates. Although short and simple, the program shows how a python script can implement many layers of defense, mirroring the workflow of a larger system.
